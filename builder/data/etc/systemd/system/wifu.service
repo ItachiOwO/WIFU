@@ -1,0 +1,20 @@
+[Unit]
+Description=WiFU Deep Reinforcement Learning instrumenting bettercap for WiFI pwning.
+Documentation=https://wifu.ai
+Wants=network.target
+After=wifugrid-peer.service
+
+[Service]
+Type=simple
+WorkingDirectory=/tmp
+PermissionsStartOnly=true
+ExecStart=/usr/bin/wifu-launcher
+Restart=always
+RestartSec=30
+TasksMax=infinity
+LimitNPROC=infinity
+StandardOutput=null
+StandardError=null
+
+[Install]
+WantedBy=multi-user.target

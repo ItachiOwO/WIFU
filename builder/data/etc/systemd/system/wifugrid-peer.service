@@ -1,0 +1,15 @@
+[Unit]
+Description=wifugrid peer service.
+Documentation=https://wifu.ai
+Wants=network.target
+After=bettercap.service
+
+[Service]
+Type=simple
+PermissionsStartOnly=true
+ExecStart=/usr/bin/wifugrid -keys /etc/wifu -address 127.0.0.1:8666 -client-token /root/.api-enrollment.json -wait -log /var/log/wifugrid-peer.log -iface mon0
+Restart=always
+RestartSec=30
+
+[Install]
+WantedBy=multi-user.target
