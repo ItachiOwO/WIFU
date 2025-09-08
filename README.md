@@ -1,21 +1,120 @@
-<p align="center">
-  <small>Join the project community on our server!</small>
-  <br/><br/>
-  <a href="https://discord.gg/https://discord.gg/btZpkp45gQ" target="_blank" title="Join our community!">
-    <img src="https://dcbadge.limes.pink/api/server/https://discord.gg/btZpkp45gQ"/>
-  </a>
-</p>
-<hr/>
+# WiFU - Advanced WiFi Penetration Toolkit
 
 <p align="center">
-    <a href="https://github.com/evilsocket/pwnagotchi/releases/latest"><img alt="Release" src="https://img.shields.io/github/release/evilsocket/pwnagotchi.svg?style=flat-square"></a>
-    <a href="https://github.com/evilsocket/pwnagotchi/blob/master/LICENSE.md"><img alt="Software License" src="https://img.shields.io/badge/license-GPL3-brightgreen.svg?style=flat-square"></a>
-    <a href="https://github.com/evilsocket/pwnagotchi/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/evilsocket/pwnagotchi"/></a>
-    <br/>
-    <br/>
-    <img src="https://www.evilsocket.net/images/human-coded.png" height="30px" alt="This project is 100% made by humans."/>
-
+    <img src="https://i.imgur.com/EKDN8AS.png" width="400" alt="WiFU Logo"/>
 </p>
+
+<p align="center">
+    <a href="https://github.com/ItachiOwO/WIFU/releases/latest"><img alt="Release" src="https://img.shields.io/github/v/release/ItachiOwO/WIFU?style=flat-square&color=blue"></a>
+    <a href="https://github.com/ItachiOwO/WIFU/blob/master/LICENSE.md"><img alt="Software License" src="https://img.shields.io/badge/license-GPL3-brightgreen.svg?style=flat-square"></a>
+    <a href="https://github.com/ItachiOwO/WIFU/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/ItachiOwO/WIFU?style=flat-square&color=yellow"></a>
+    <a href="https://github.com/ItachiOwO/WIFU/network/members"><img alt="Forks" src="https://img.shields.io/github/forks/ItachiOwO/WIFU?style=flat-square&color=orange"></a>
+</p>
+
+<p align="center">
+    <b>WiFU is an advanced AI-powered toolkit for WiFi security analysis and penetration testing.</b>
+</p>
+
+## 🌟 Features
+
+WiFU combines **AI-driven learning** with **direct attack capabilities** to create a comprehensive WiFi security toolkit:
+
+### 🤖 AI-Powered Learning System
+- **Deep Reinforcement Learning** (A2C) algorithms that optimize attack strategies
+- **Adaptive Parameters** that learn from your environment
+- **Automatic Optimization** of channel hopping, deauthentication timing, and target selection
+- **Multi-device Cooperation** between WiFU units for optimal channel coverage
+
+### ⚔️ Direct Attack Capabilities
+- **WPA2 Handshake Capture** - Efficient 4-way handshake collection
+- **PMKID Extraction** - Client-less attack against access points
+- **WPA3 Downgrade Attack** - Force transition mode on WPA3 networks
+- **Evil Twin Deployment** - Create convincing rogue access points
+- **Dragonblood Exploitation** - Target vulnerabilities in WPA3's SAE implementation
+
+## 📱 Interactive UI
+
+WiFU features a personality-driven interface that gives feedback on its learning progress:
+
+<p align="center">
+    <img src="https://i.imgur.com/X68GXrn.png" width="400" alt="WiFU Interface"/>
+</p>
+
+The UI provides real-time feedback on:
+- Current epoch and learning state
+- Number of access points and clients detected
+- Handshakes captured
+- Current channel and optimization strategies
+
+## 🚀 Getting Started
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/ItachiOwO/WIFU.git
+cd WIFU
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run WiFU
+sudo ./bin/wifu
+```
+
+### Attack Mode
+
+WiFU's interactive attack mode provides a menu-driven interface to launch specialized attacks:
+
+```bash
+sudo ./bin/wifu --attack-mode
+```
+
+<p align="center">
+    <img src="https://i.imgur.com/J4gSL5q.png" width="400" alt="WiFU Attack Mode"/>
+</p>
+
+Select from multiple attack options and provide your wireless interface to begin targeted testing.
+
+### Manual Mode
+
+For direct control without AI learning:
+
+```bash
+sudo ./bin/wifu --manual
+```
+
+## 🔍 How It Works
+
+WiFU uses an [LSTM with MLP feature extractor](https://stable-baselines.readthedocs.io/en/master/modules/policies.html#stable_baselines.common.policies.MlpLstmPolicy) as its policy network for the [A2C agent](https://stable-baselines.readthedocs.io/en/master/modules/a2c.html). 
+
+The learning process involves:
+1. **Observation** of the WiFi environment
+2. **Parameter optimization** for maximum handshake capture
+3. **Adaptive strategies** based on network density and activity
+4. **Continuous improvement** through reinforcement learning
+
+## ⚠️ Legal Disclaimer
+
+**WiFU is for authorized penetration testing and security research only.** 
+
+Unauthorized use against networks you don't own or have explicit permission to test is illegal and may result in criminal charges. Users are solely responsible for ensuring all testing complies with local, state, and federal laws. The developers assume no liability for misuse or damage caused by this program.
+
+## 📚 Documentation
+
+For comprehensive documentation, visit our wiki: [WiFU Documentation](https://github.com/ItachiOwO/WIFU/wiki)
+
+## 🔄 Updates & Contributions
+
+WiFU is actively maintained and welcomes contributions:
+
+- **Report bugs** by opening issues
+- **Suggest features** through pull requests
+- **Improve documentation** to help new users
+
+## 📄 License
+
+WiFU is released under the [GPL3 License](LICENSE.md).
 
 # WiFU: WPA2/WPA3 Attack Toolkit
 
