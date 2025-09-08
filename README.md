@@ -4,6 +4,12 @@
     <img src="https://i.imgur.com/EKDN8AS.png" width="400" alt="WiFU Logo"/>
 </p>
 
+<!-- 
+TODO: Replace with anime girl pentesting logo
+Create a transparent PNG with an anime-style female character who is ethically hacking,
+similar to the pwnagotchi concept but with anime styling.
+-->
+
 <p align="center">
     <a href="https://github.com/ItachiOwO/WIFU/releases/latest"><img alt="Release" src="https://img.shields.io/github/v/release/ItachiOwO/WIFU?style=flat-square&color=blue"></a>
     <a href="https://github.com/ItachiOwO/WIFU/blob/master/LICENSE.md"><img alt="Software License" src="https://img.shields.io/badge/license-GPL3-brightgreen.svg?style=flat-square"></a>

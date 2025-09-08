@@ -1,0 +1,26 @@
+This is a placeholder for the WiFU logo.
+
+For your logo idea of an anime girl who is ethically hacking (pentesting):
+
+1. Design concept: Anime-style female character with:
+   - Modern hacker aesthetic (hoodie optional)
+   - Laptop showing code or network visualization
+   - Wireless signal icons nearby
+   - Cute, friendly appearance with a touch of technical competence
+   - Transparent background (PNG format)
+
+2. Colors:
+   - Consider using colors that match your project's theme
+   - Maybe purple/blue tones for a cybersecurity feel
+   - Highlight elements with contrasting colors
+
+3. Recommended dimensions:
+   - 500x500px (square) or 800x500px (rectangular)
+   - Save as PNG with transparency
+
+You can create this using:
+- Professional artist commission
+- AI image generators like Midjourney, DALL-E, or Stable Diffusion
+- Vector graphic software like Inkscape (free) or Adobe Illustrator
+
+When you have your logo, replace this placeholder file and update the README.md to include it.
