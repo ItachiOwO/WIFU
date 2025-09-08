@@ -1,16 +1,6 @@
 # WiFU - Advanced WiFi Penetration Toolkit
 
 <p align="center">
-    <img src="https://i.imgur.com/EKDN8AS.png" width="400" alt="WiFU Logo"/>
-</p>
-
-<!-- 
-TODO: Replace with anime girl pentesting logo
-Create a transparent PNG with an anime-style female character who is ethically hacking,
-similar to the pwnagotchi concept but with anime styling.
--->
-
-<p align="center">
     <a href="https://github.com/ItachiOwO/WIFU/releases/latest"><img alt="Release" src="https://img.shields.io/github/v/release/ItachiOwO/WIFU?style=flat-square&color=blue"></a>
     <a href="https://github.com/ItachiOwO/WIFU/blob/master/LICENSE.md"><img alt="Software License" src="https://img.shields.io/badge/license-GPL3-brightgreen.svg?style=flat-square"></a>
     <a href="https://github.com/ItachiOwO/WIFU/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/ItachiOwO/WIFU?style=flat-square&color=yellow"></a>
@@ -40,11 +30,7 @@ WiFU combines **AI-driven learning** with **direct attack capabilities** to crea
 
 ## 📱 Interactive UI
 
-WiFU features a personality-driven interface that gives feedback on its learning progress:
-
-<p align="center">
-    <img src="https://i.imgur.com/X68GXrn.png" width="400" alt="WiFU Interface"/>
-</p>
+WiFU features a personality-driven interface that gives feedback on its learning progress.
 
 The UI provides real-time feedback on:
 - Current epoch and learning state
@@ -75,10 +61,6 @@ WiFU's interactive attack mode provides a menu-driven interface to launch specia
 ```bash
 sudo ./bin/wifu --attack-mode
 ```
-
-<p align="center">
-    <img src="https://i.imgur.com/J4gSL5q.png" width="400" alt="WiFU Attack Mode"/>
-</p>
 
 Select from multiple attack options and provide your wireless interface to begin targeted testing.
 
@@ -126,8 +108,6 @@ WiFU is released under the [GPL3 License](LICENSE.md).
 
 [WiFU](https://wifu.ai/) is an [A2C](https://hackernoon.com/intuitive-rl-intro-to-advantage-actor-critic-a2c-4ff545978752)-based "AI" leveraging [bettercap](https://www.bettercap.org/) that learns from its surrounding WiFi environment to maximize the crackable WPA key material it captures (either passively, or by performing authentication and association attacks). This material is collected as PCAP files containing any form of handshake supported by [hashcat](https://hashcat.net/hashcat/), including [PMKIDs](https://www.evilsocket.net/2019/02/13/Pwning-WiFi-networks-with-bettercap-and-the-PMKID-client-less-attack/), 
 full and half WPA handshakes.
-
-![ui](https://i.imgur.com/X68GXrn.png)
 
 Instead of merely playing [Super Mario or Atari games](https://becominghuman.ai/getting-mario-back-into-the-gym-setting-up-super-mario-bros-in-openais-gym-8e39a96c1e41?gi=c4b66c3d5ced) like most reinforcement learning-based "AI" *(yawn)*, WiFU tunes [its parameters](https://github.com/evilsocket/pwnagotchi/blob/master/pwnagotchi/defaults.toml) over time to **get better at pwning WiFi things** in the environments you expose it to. 
 
