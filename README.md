@@ -161,18 +161,7 @@ This will present a menu of available attacks to choose from.
 
 WiFU is for authorized penetration testing and security research only. Unauthorized use is illegal. Always obtain proper authorization before testing any wireless networks. The developers assume no liability and are not responsible for any misuse or damage caused by this program.
 
-## Documentation
 
-https://www.wifu.ai
-
-## Links
-
-&nbsp; | Official Links
----------|-------
-Website | [wifu.ai](https://wifu.ai/)
-Forum | [community.wifu.ai](https://community.wifu.ai/)
-Slack | [wifu.slack.com](https://invite.wifu.ai/)
-Subreddit | [r/wifu](https://www.reddit.com/r/wifu/)
 
 ## License
 
